@@ -1,0 +1,13 @@
+---
+title: "Simple-function"
+author: "Yongjun Chu"
+date: "January 28, 2019"
+output: html_document
+---
+#example using Rstudio and Git and GitHub
+
+```{r}
+se <- function(x) {
+  sd(x)/length(x)
+}
+```
